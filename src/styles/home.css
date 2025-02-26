@@ -1,0 +1,33 @@
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; 
+    padding: 10px;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.card {
+    flex-shrink: 0; 
+    margin-right: 20px;
+}
+.card-text {
+    margin-bottom: 5px; 
+}
+.card-body{
+    text-align: left;
+}
